@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: "Rocksalt";
-  src: local("Rocksalt"), url("/Assets/fonts/RockSalt-Regular.ttf");
+  src: local("Rocksalt"), url("./Assets/fonts/RockSalt-Regular.ttf");
 }
 body {
   background-color: whitesmoke;
@@ -79,7 +79,7 @@ footer a {
   justify-content: space-evenly;
   margin: 0 auto;
   padding: 4vw;
-  background-image: url(/Assets/bilder/mountain.jpg);
+  background-image: url(./Assets/bilder/mountain.jpg);
   width: 100%;
   min-height: 50vh;
   color: black;
