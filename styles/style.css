@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(/Assets/bilder/herobgr.jpg);
+  width: 100vw;
+  height: 10vh;
+  color: black;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-color: black;
+}
+footer {
+  height: 10vh;
+  background-color: lightcoral;
+}
+.info-text {
+  color: black;
+  font-size: small;
+}
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url(/Assets/bilder/herobgr.jpg);
+  width: 100vw;
+  height: 40vh;
+  color: black;
+  margin-bottom: 20px;
+  background-size: cover;
+  flex-wrap: wrap;
+}
+.meny {
+  font-size: 1rem;
+}
+.section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.info-articles {
+  background-color: blue;
+  padding: 1vw;
+  width: 30vw;
+}
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.skill-info {
+  background-color: green;
+  padding: 1vw;
+  width: 50vw;
+  height: 30vh;
+  border-color: black;
+  border-style: inset;
+}
+
+.item {
+  color: black;
+  text-decoration: none;
+}
+/*----Blogg-sektion-----*/
+.div-flex {
+  display: flex;
+  background-color: lightseagreen;
+  padding: 1vw;
+  width: 100%;
+}
+.blog-article {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 60vw;
+}
+.blog-info {
+  background-color: lightcoral;
+  padding: 1vw;
+  height: 15vh;
+}
+.info-aside {
+  width: 40vw;
+  background-color: brown;
+  padding: 1vw;
+}
+/*----sista-sektion-----*/
+.info-section {
+  background-color: lightgray;
+}

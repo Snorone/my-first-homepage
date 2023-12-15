@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  grid-template-rows: 75px 2fr 1fr 2fr 2fr 1fr 1fr 1fr 2fr 75px;
+  grid-template-areas:
+    "header header header header"
+    "hero hero hero hero"
+    "section1 section1 section1 section1"
+    "skills skills skills skills"
+    "skills skills skills skills"
+    "blog blog blog aside"
+    "blog blog blog aside"
+    "blog blog blog aside"
+    "contact contact contact contact"
+    "footer footer footer footer";
+}
+header {
+  grid-area: header;
+  background-color: aqua;
+}
+#hero {
+  background-color: rgb(120, 36, 131);
+  grid-area: hero;
+}
+.section1 {
+  background-color: lightcoral;
+  grid-area: section1;
+}
+.skills {
+  background-color: lightgreen;
+  grid-area: skills;
+  footer {
+    background-color: lightyellow;
+    grid-area: footer;
+  }
+}
+#section2 {
+  background-color: lightgrey;
+  grid-area: section2;
+}
+#section3 {
+  background-color: lightblue;
+  grid-area: section3;
+}
